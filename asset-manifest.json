@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BirthDay/static/css/main.d20df174.css",
-    "main.js": "/BirthDay/static/js/main.296a24cc.js",
-    "static/js/453.7ee64490.chunk.js": "/BirthDay/static/js/453.7ee64490.chunk.js",
-    "static/media/logo.svg": "/BirthDay/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/BirthDay/index.html",
-    "main.d20df174.css.map": "/BirthDay/static/css/main.d20df174.css.map",
-    "main.296a24cc.js.map": "/BirthDay/static/js/main.296a24cc.js.map",
-    "453.7ee64490.chunk.js.map": "/BirthDay/static/js/453.7ee64490.chunk.js.map"
+    "main.css": "/TestRepo/static/css/main.d20df174.css",
+    "main.js": "/TestRepo/static/js/main.5e5330de.js",
+    "static/js/453.7ee64490.chunk.js": "/TestRepo/static/js/453.7ee64490.chunk.js",
+    "static/media/logo.svg": "/TestRepo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TestRepo/index.html",
+    "main.d20df174.css.map": "/TestRepo/static/css/main.d20df174.css.map",
+    "main.5e5330de.js.map": "/TestRepo/static/js/main.5e5330de.js.map",
+    "453.7ee64490.chunk.js.map": "/TestRepo/static/js/453.7ee64490.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d20df174.css",
-    "static/js/main.296a24cc.js"
+    "static/js/main.5e5330de.js"
   ]
 }
