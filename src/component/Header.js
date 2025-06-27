@@ -6,9 +6,12 @@ export default function Header() {
 
     return (
         <>
-            <button className="hamburger" onClick={() => setIsOpen(true)}>
-                ☰
-            </button>
+            <div className="header">
+                <button className="hamburger" onClick={() => setIsOpen(true)}>
+                    ☰
+                </button>
+                <h1 className="headerTitle">TEST!!</h1>
+            </div>
 
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
                 <button className="close-btn" onClick={() => setIsOpen(false)}>
@@ -23,9 +26,8 @@ export default function Header() {
                         <li><a href="#">PHOTO</a></li>
                     </ul>
                 </nav>
-                <h1 className="title">TEST</h1>
             </div>
-            <h1 className="title">TEST</h1>
+
         </>
 )
     ;
