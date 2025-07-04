@@ -15,14 +15,14 @@ function PhotoBooth() {
     };
 
     const startPhotoBooth = async () => {
-        photosRef.current = []; // 촬영 전 초기화
+        photosRef.current = [];
         setShooting(true);
         for (let i = 0; i < 4; i++) {
             await new Promise((res) => setTimeout(res, 5000));
             capture();
         }
         setShooting(false);
-        setRenderTrigger((prev) => !prev); // 화면에 사진 표시용 렌더 트리거
+        setRenderTrigger((prev) => !prev);
     };
 
     return (

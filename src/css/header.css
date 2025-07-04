@@ -32,8 +32,8 @@
     align-items: center;
     gap: 120px;
     padding: 10px;
-    height:15%;
-    background-color: #02024e;
+    height: 50px;
+    background-color: #000000;
 }
 
 .hamburger {
@@ -70,12 +70,6 @@
 }
 
 
-
-
-.main {
-    height: 300px;
-}
-
 .gift{
     height: 300px;
 }
@@ -91,7 +85,8 @@
 
 .slider {
     width: 100%;
-    height: 220px;
+    height: 250px;
+    align-content: center;
     background-color: #000000;
 }
 
@@ -113,4 +108,75 @@
 }
 .photoBooth *{
     margin:50px;
+}
+
+
+/*플에이어*/
+.player-wrapper {
+    position: relative;
+    width: 130px;
+    height: 100px;
+    top:40px;
+    cursor: pointer;
+}
+
+.player-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 130px;
+    height: 100px;
+}
+
+.cd-img {
+    position: absolute;
+    top: 13px;
+    left: 28px;
+    width: 80px;
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.film-border {
+    width: 100%;
+    height: 10px;
+    background-image: repeating-linear-gradient(
+            to right,
+            rgb(255, 255, 255) 0px,
+            rgb(255, 255, 255) 10px,
+            transparent 10px,
+            transparent 20px
+    );
+    opacity: 0.9;
+}
+
+.spin {
+    animation: spin 1.2s linear infinite;
+}
+.main {
+    height: 300px;
+    background-image: repeating-linear-gradient(
+            to right,
+            white 0px,
+            white 4px,
+            #cee7ff 7px,
+            #cee7ff 15px
+    );
+}
+.table {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: cornflowerblue;
 }
