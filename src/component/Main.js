@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import Carousel from "./Carousel";
-
 export default function Main() {
 
     const [images, setImages] = useState([
@@ -30,6 +29,9 @@ export default function Main() {
                           className={`cd-img ${isSpinning ? "spin" : ""}`}
                           alt="CD"
                       />
+                      {isSpinning && (
+                          <video src="/image/song.mp4" playsInline={false} muted={false} loop autoPlay />
+                      )}
                   </div>
               </div>
               <div className="photo">

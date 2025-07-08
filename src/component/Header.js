@@ -13,20 +13,20 @@ export default function Header() {
                 <h1 className="headerTitle">WOOJIN</h1>
             </div>
 
-            <div className={`sidebar ${isOpen ? "open" : ""}`}>
-                <button className="close-btn" onClick={() => setIsOpen(false)}>
-                    ✕
-                </button>
+            {/*<div className={`sidebar ${isOpen ? "open" : ""}`}>*/}
+            {/*    <button className="close-btn" onClick={() => setIsOpen(false)}>*/}
+            {/*        ✕*/}
+            {/*    </button>*/}
 
-                <nav>
-                    <ul className="nav">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">GIFT</a></li>
-                        <li><a href="#">LETTER</a></li>
-                        <li><a href="#">PHOTO</a></li>
-                    </ul>
-                </nav>
-            </div>
+            {/*    <nav>*/}
+            {/*        <ul className="nav">*/}
+            {/*            <li><a href="#">HOME</a></li>*/}
+            {/*            <li><a href="#">GIFT</a></li>*/}
+            {/*            <li><a href="#">LETTER</a></li>*/}
+            {/*            <li><a href="#">PHOTO</a></li>*/}
+            {/*        </ul>*/}
+            {/*    </nav>*/}
+            {/*</div>*/}
 
         </>
 )
