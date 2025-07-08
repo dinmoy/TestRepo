@@ -16,12 +16,13 @@ const Carousel = () => {
     const handleDragStart = (e) => e.preventDefault();
 
     const images = [
-        "/image/강아지2.jpg",
-        "/image/강아지2.jpg",
-        "/image/강아지2.jpg",
-        "/image/강아지2.jpg",
-        "/image/강아지2.jpg",
-        "/image/강아지2.jpg"
+        "/image/photo1.jpg",
+        "/image/photo2.jpg",
+        "/image/photo3.jpg",
+        "/image/photo4.jpg",
+        "/image/photo5.jpg",
+        "/image/photo6.jpg",
+        "/image/photo7.jpg"
     ];
 
     const items = images.map((image) => {

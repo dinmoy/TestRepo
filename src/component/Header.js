@@ -10,7 +10,7 @@ export default function Header() {
                 <button className="hamburger" onClick={() => setIsOpen(true)}>
                     ☰
                 </button>
-                <h1 className="headerTitle">TEST!!</h1>
+                <h1 className="headerTitle">WOOJIN</h1>
             </div>
 
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
